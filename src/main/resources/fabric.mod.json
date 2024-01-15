@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sandhack-brand-packet",
+  "version": "${version}",
+  "name": "Sandhack Brand Packet",
+  "description": "Sets the client brand to sandhack",
+  "authors": ["2stinkysocks"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sandhack-brand-packet/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "sandhack-brand-packet.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.20.2+"
+  }
+}
